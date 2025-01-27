@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .controls select,
+  .controls input,
+  .controls button {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .bar {
+    width: 20px;
+    background-color: blue;
+    transition: height 0.3s ease;
+  }
+  
+  .bar.red {
+    background-color: red !important;
+  }
+  
+  .bar.green {
+    background-color: green !important;
+  }
+  
+  .commentary {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+  }
